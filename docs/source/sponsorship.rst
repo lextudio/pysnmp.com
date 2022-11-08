@@ -12,7 +12,7 @@ services are free of charge, software is open source and the
 `licensing model <https://www.pysnmp.com/license.html>`_ is extremely
 permissive.
 
-To keep our products at the edge of technology, the PySNMP Organization is offering
+To keep our products at the edge of technology, the PySNMP organization is offering
 consulting services and sponsorship opportunities. If you are looking
 to:
 

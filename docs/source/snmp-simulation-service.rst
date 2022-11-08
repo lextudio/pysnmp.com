@@ -4,7 +4,7 @@
 SNMP simulation service
 =======================
 
-The PySNMP Organization hosts an SNMP Simulator instance on
+The PySNMP organization hosts an SNMP Simulator instance on
 `Digital Ocean <https://cloud.digitalocean.com/>`_ cloud in
 hope to help fellow software developers that are looking to test their
 SNMP code against live SNMP agents of different kinds.
@@ -15,7 +15,7 @@ by SNMP Simulator :doc:`/license`.
 
 If you are considering Digital Ocean as a cloud service provider for your own
 needs, `this voucher <https://m.do.co/c/debefe816df4>`_ will get you $10 credit
-and also benefit the PySNMP Organization.
+and also benefit the PySNMP organization.
 
 In case of any troubles or suggestions, please
 `open up a <https://github.com/lextudio/snmplabs.com/issues/new>`_ GitHub issue.
