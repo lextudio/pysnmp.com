@@ -8,3 +8,8 @@ Revision 0.0.2, released XX-12-2019
 -----------------------------------
 
 - Added sponsorship page
+
+Revision 0.0.3, released 11-08-2022
+-----------------------------------
+
+- Added sponsorship page

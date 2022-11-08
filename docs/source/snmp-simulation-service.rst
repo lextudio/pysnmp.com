@@ -4,7 +4,7 @@
 SNMP simulation service
 =======================
 
-SNMP Labs hosts an SNMP Simulator instance on
+The PySNMP Organization hosts an SNMP Simulator instance on
 `Digital Ocean <https://cloud.digitalocean.com/>`_ cloud in
 hope to help fellow software developers that are looking to test their
 SNMP code against live SNMP agents of different kinds.
@@ -15,10 +15,10 @@ by SNMP Simulator :doc:`/license`.
 
 If you are considering Digital Ocean as a cloud service provider for your own
 needs, `this voucher <https://m.do.co/c/debefe816df4>`_ will get you $10 credit
-and also benefit SNMP Labs.
+and also benefit the PySNMP Organization.
 
 In case of any troubles or suggestions, please
-`open up a <https://github.com/etingof/snmplabs.com/issues/new>`_ GitHub issue.
+`open up a <https://github.com/lextudio/snmplabs.com/issues/new>`_ GitHub issue.
 
 .. _simulated-snmp-engines:
 
@@ -30,13 +30,13 @@ There are four independent SNMP engines configured at different UDP ports:
 +--------------------------------+-------------------+----------------+
 | **SNMP Engine ID**             | **Hostname**      | **UDP port**   |
 +--------------------------------+-------------------+----------------+
-| 0x80004fb805636c6f75644dab22cc | demo.snmplabs.com | 161 (standard) |
+| 0x80004fb805636c6f75644dab22cc | demo.pysnmp.com   | 161 (standard) |
 +--------------------------------+-------------------+----------------+
-| 0x80004fb805636c6f75644dab22cd | demo.snmplabs.com | 1161           |
+| 0x80004fb805636c6f75644dab22cd | demo.pysnmp.com   | 1161           |
 +--------------------------------+-------------------+----------------+
-| 0x80004fb805636c6f75644dab22ce | demo.snmplabs.com | 2161           |
+| 0x80004fb805636c6f75644dab22ce | demo.pysnmp.com   | 2161           |
 +--------------------------------+-------------------+----------------+
-| 0x80004fb805636c6f75644dab22cf | demo.snmplabs.com | 3161           |
+| 0x80004fb805636c6f75644dab22cf | demo.pysnmp.com   | 3161           |
 +--------------------------------+-------------------+----------------+
 
 .. note::
@@ -71,7 +71,7 @@ SNMPv3 user table
 +++++++++++++++++
 
 The following table includes plain-text keys (AKA passwords or pass-phrases) used
-by SNMP USM security model for cryptographic authenticaton and encryption.
+by SNMP USM security model for cryptographic authentication and encryption.
 
 +------------------------+---------------------------+----------------------+-------------------------+------------------+
 | USM Security Name      | Authentication protocol   | Authentication key   | Encryption protocol     | Encryption key   |
@@ -451,7 +451,7 @@ TRAP sink
 
 Besides simulated SNMP Agents we are also running a multilingual
 SNMP Notification Receiver. It will consume and optionally acknowledge
-SNMP TRAP/INFORM messages you might send to *demo.snmplabs.com:162*.
+SNMP TRAP/INFORM messages you might send to *demo.pysnmp.com:162*.
 
 SNMPv1/v2c community name is **public**. Configured SNMPv3 USM users
 and keys are :ref:`the same <simulated-usm-users>` as for SNMP agents.
@@ -469,13 +469,13 @@ Examples
 Variated table walk
 +++++++++++++++++++
 
-To query simulated live `IF-MIB::interfaces <http://mibs.snmplabs.com/asn1/IF-MIB>`_ over
+To query simulated live `IF-MIB::interfaces <http://mibs.pysnmp.com/asn1/IF-MIB>`_ over
 SNMPv2c use the following command:
 
 .. code-block:: bash
 
     $ snmpwalk -v2c -c variation/virtualtable \
-        demo.snmplabs.com IF-MIB::interfaces
+        demo.pysnmp.com IF-MIB::interfaces
 
 Modify managed objects
 ++++++++++++++++++++++
@@ -485,18 +485,18 @@ with SNMP SET:
 
 .. code-block:: bash
 
-    $ snmpwalk -v2c -c public demo.snmplabs.com system
+    $ snmpwalk -v2c -c public demo.pysnmp.com system
     ...
     SNMPv2-MIB::sysORDescr.1 = STRING: Please modify me
     SNMPv2-MIB::sysORUpTime.1 = Timeticks: (1) 0:00:00.01
     $
-    $ snmpset -v2c -c private demo.snmplabs.com \
+    $ snmpset -v2c -c private demo.pysnmp.com \
       SNMPv2-MIB::sysORDescr.1 = 'Here is my new note'
     SNMPv2-MIB::sysORDescr.1 = STRING: Here is my new note
-    $ snmpset -v2c -c private demo.snmplabs.com \
+    $ snmpset -v2c -c private demo.pysnmp.com \
       SNMPv2-MIB::sysORUpTime.1 = 321
     SNMPv2-MIB::sysORUpTime.1 = Timeticks: (321) 0:00:03.21
-    $ snmpwalk -v2c -c public demo.snmplabs.com system
+    $ snmpwalk -v2c -c public demo.pysnmp.com system
     ...
     SNMPv2-MIB::sysORDescr.1 = STRING: Here is my new note
     SNMPv2-MIB::sysORUpTime.1 = Timeticks: (321) 0:00:03.21
@@ -510,7 +510,7 @@ off the SNMP Simulator:
 
 .. code-block:: bash
 
-    $ snmpwalk -v2c -c index demo.snmplabs.com 1.3.6
+    $ snmpwalk -v2c -c index demo.pysnmp.com 1.3.6
     SNMPv2-SMI::enterprises.20408.999.1.1.1 = STRING: "/usr/snmpsim/data/1.3.6.1.6.1.1.0/127.0.0.1.snmprec"
     SNMPv2-SMI::enterprises.20408.999.1.1.2 = STRING: "/usr/snmpsim/data/public.snmprec"
     SNMPv2-SMI::enterprises.20408.999.1.1.3 = STRING: "/usr/snmpsim/data/foreignformats/winxp2.sapwalk"
@@ -528,7 +528,7 @@ privacy and plain-text keys:
        -u usr-md5-des \
        -a md5 -A authkey1 \
        -x des -X privkey1 \
-       demo.snmplabs.com sysDescr.0
+       demo.pysnmp.com sysDescr.0
    SNMPv2-MIB::sysDescr.0 = STRING: Linux zeus 4.8.6.5-smp #2 SMP Sun Nov 13 14:58:11 CDT 2016 i686
 
 SNMPv3 command example using `MD5` protocol for authentication, `DES` for
@@ -540,7 +540,7 @@ privacy and master keys:
        -u usr-md5-des \
        -a md5 -3m 0x1dcf59e86553b3afa5d32fd5d61bf0cf \
        -x des -3M 0xec5ab55e93e1d85cb6846d0f23e845e0 \
-       demo.snmplabs.com sysDescr.0
+       demo.pysnmp.com sysDescr.0
     SNMPv2-MIB::sysDescr.0 = STRING: Linux zeus 4.8.6.5-smp #2 SMP Sun Nov 13 14:58:11 CDT 2016 i686
 
 SNMPv3 command example using `MD5` protocol for authentication, `DES` for
@@ -553,7 +553,7 @@ privacy and localized keys:
        -e 0x80004fb805636c6f75644dab22cc \
        -a md5 -3k 0x6b99c475259ef7976cf8d028a3381eeb \
        -x des -3K 0x92b5ef98f0a216885e73944e58c07345 \
-       demo.snmplabs.com sysDescr.0
+       demo.pysnmp.com sysDescr.0
     SNMPv2-MIB::sysDescr.0 = STRING: Linux zeus 4.8.6.5-smp #2 SMP Sun Nov 13 14:58:11 CDT 2016 i686
 
 .. note::
@@ -575,7 +575,7 @@ Example SNMPv3 TRAP would look like this:
         -e 8000000001020304 \
         -a md5 -A authkey1 \
         -x des -X privkey1 \
-        demo.snmplabs.com \
+        demo.pysnmp.com \
         12345 1.3.6.1.4.1.20408.4.1.1.2 1.3.6.1.2.1.1.1.0 s hello
 
 Normal SNMP engine ID discovery would work for SNMP INFORMs, hence
@@ -587,5 +587,5 @@ securityEngineId should not be used:
         -u usr-md5-des \
         -a md5 -A authkey1 \
         -x des -X privkey1 \
-        demo.snmplabs.com 12345 \
+        demo.pysnmp.com 12345 \
         1.3.6.1.4.1.20408.4.1.1.2 1.3.6.1.2.1.1.1.0 s hello

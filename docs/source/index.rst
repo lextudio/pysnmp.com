@@ -1,13 +1,13 @@
 
 .. _snmplabs.com:
 
-Welcome to SNMP Laboratories
-============================
+Welcome to PySNMP Documentation
+===============================
 
 .. toctree::
    :maxdepth: 2
 
-At SNMP Labs, we are aiming at building high-quality, free and open source
+The PySNMP organization aims at building high-quality, free and open source
 tools primarily in the area of network management and monitoring.
 
 Our projects
@@ -15,12 +15,12 @@ Our projects
 
 Our expertise and interests somehow revolve around
 `SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`_.
-We mostly code our stuff in `Python <http://www.python.org>`_.
+We mostly code our stuff in `Python <https://www.python.org>`_.
 You will notice that momentarily!
 
 .. _snmpsim:
 
-* `SNMP Agent Simulator <http://snmplabs.com/snmpsim>`_
+* `SNMP Agent Simulator <https://www.pysnmp.com/snmpsim>`_
 
    The SNMP Agent Simulator tool pretends to be a large network of
    SNMP-speaking devices. It aims at helping fellow developers and
@@ -29,7 +29,7 @@ You will notice that momentarily!
 
 .. _snmpfwd:
 
-* `SNMP Proxy Forwarder <http://snmplabs.com/snmpfwd>`_
+* `SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd>`_
 
    The alternative acronym for *SNMP* is *Security? Not My Problem!* The
    SNMP Proxy Forwarder tool tries to improve the security and usability
@@ -41,7 +41,7 @@ You will notice that momentarily!
 
 .. _snmpresponder:
 
-* `SNMP Command Responder <http://snmplabs.com/snmpresponder>`_
+* `SNMP Command Responder <https://www.pysnmp.com/snmpresponder>`_
 
    The SNMP Command Responder tool is a general purpose, cross-platform,
    extendable and multi-protocol SNMP agent implementation.
@@ -52,7 +52,7 @@ You will notice that momentarily!
 
 .. _snmpclitools:
 
-* `Command-line SNMP tools <http://snmplabs.com/snmpclitools>`_
+* `Command-line SNMP tools <https://www.pysnmp.com/snmpclitools>`_
 
    The collection of command-line SNMP tools written in pure-Python
    and tightly aligned with the de-facto standard SNMP tools that come
@@ -60,7 +60,7 @@ You will notice that momentarily!
 
 .. _pysnmp:
 
-* `SNMP library for Python <http://snmplabs.com/pysnmp/>`_
+* `SNMP library for Python <https://www.pysnmp.com/pysnmp/>`_
 
    The pysnmp project delivers the fully-functional SNMP engine
    implementation in pure-Python. It support reasonably advanced
@@ -69,7 +69,7 @@ You will notice that momentarily!
 
 .. _pysmi:
 
-* `SNMP SMI compiler <http://snmplabs.com/pysmi/>`_
+* `SNMP SMI compiler <https://www.pysnmp.com/pysmi/>`_
 
    With SNMP, the things you can tackle are formally expressed in the
    `SMI <https://en.wikipedia.org/wiki/Structure_of_Management_Information>`_
@@ -77,7 +77,7 @@ You will notice that momentarily!
    code or JSON documents for further consumption by :ref:`pysnmp <pysnmp>`
    or other automation tools.
 
-* `ASN.1 types and codecs <http://snmplabs.com/pyasn1/>`_
+* `ASN.1 types and codecs <https://www.pysnmp.com/pyasn1/>`_
 
    `ASN.1 <https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One>`_
    is essentially a data serialisation technology on steroids. Many
@@ -105,13 +105,13 @@ Our sponsors
 Source code
 -----------
 
-Projects source code is hosted on `GitHub <https://github.com/etingof/>`_.
+Projects source code is hosted on `GitHub <https://github.com/pysnmp/>`_.
 Everyone is welcome to fork, PR or open issues!
 
 License
 -------
 
-In essence, everyone is welcome to take, use or modify SNMP Labs software
+In essence, everyone is welcome to take, use or modify PySNMP software
 for whatever purpose for as long as attribution is retained.
 
 .. toctree::
