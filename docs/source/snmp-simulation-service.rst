@@ -5,7 +5,7 @@ SNMP simulation service
 =======================
 
 The PySNMP organization hosts an SNMP Simulator instance on
-`Digital Ocean <https://cloud.digitalocean.com/>`_ cloud in
+`Microsoft Azure <https://azure.microsoft.com/>`_ in
 hope to help fellow software developers that are looking to test their
 SNMP code against live SNMP agents of different kinds.
 
@@ -13,12 +13,8 @@ Please, note that this service is provided as-is without any guarantees on its
 reliability and correctness. Its use is generally covered
 by SNMP Simulator :doc:`/license`.
 
-If you are considering Digital Ocean as a cloud service provider for your own
-needs, `this voucher <https://m.do.co/c/debefe816df4>`_ will get you $10 credit
-and also benefit the PySNMP organization.
-
 In case of any troubles or suggestions, please
-`open up a <https://github.com/lextudio/snmplabs.com/issues/new>`_ GitHub issue.
+`open up a <https://github.com/lextudio/pysnmp/issues/new>`_ GitHub issue.
 
 .. _simulated-snmp-engines:
 
