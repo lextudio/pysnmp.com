@@ -86,6 +86,14 @@ You will notice that momentarily!
 
    The pyasn1 library deals with ASN.1 data structures in pure Python.
 
+Our history
+-----------
+
+.. toctree::
+   :maxdepth: 2
+
+   /history
+
 Our services
 ------------
 
@@ -105,7 +113,7 @@ Our sponsors
 Source code
 -----------
 
-Projects source code is hosted on `GitHub <https://github.com/pysnmp/>`_.
+Projects source code is hosted on `GitHub <https://github.com/lextudio/pysnmp/>`_.
 Everyone is welcome to fork, PR or open issues!
 
 License
