@@ -6,9 +6,7 @@ Project History
 
 Start of PySNMP
 ---------------
-Python was first released by Guido van Rossum in 1991 to the public [1]_. Soon, it became a popular language used by both programmers and IT administrators, and more and more features were added via packages. SNMP has been widely used in networking field, so no doubt the need of a Python SNMP package was real but there wasn't a dominant package. Python guru Anthony Baxter once wrote the SNMPY package [2]_ as a thin wrapper over UCD-SNMP (later became NET-SNMP), when he needs to "manage some small ethernet switches" [3]_.
-
-> SNMPY stopped in Mar 2001, after its Alpha 4 release.
+Python was first released by Guido van Rossum in 1991 to the public [1]_. Soon, it became a popular language used by both programmers and IT administrators, and more and more features were added via packages. SNMP has been widely used in networking field, so no doubt the need of a Python SNMP package was real but there wasn't a dominant package. Python guru Anthony Baxter once wrote the SNMPY package [2]_ as a thin wrapper over UCD-SNMP (later became NET-SNMP), when he needs to "manage some small ethernet switches" [3]_. SNMPY stopped in Mar 2001, after its Alpha 4 release.
 
 However, due to the fact that SNMPY tightly binds to native (C based) binaries, Python developers found it unpleasant in many cases (such as non-blocking I/O), and Ilya Etingof developed his own SNMP module and later announced on Python mailing list [4]_ on Oct 13, 1999, which was named Python SNMP module (and PySNMP for short).
 
