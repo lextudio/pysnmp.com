@@ -102,14 +102,6 @@ Our services
 
    /snmp-simulation-service
 
-Our sponsors
-------------
-
-.. toctree::
-   :maxdepth: 2
-
-   /sponsorship
-
 Source code
 -----------
 
