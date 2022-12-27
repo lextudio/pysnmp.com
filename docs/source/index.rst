@@ -77,7 +77,7 @@ You will notice that momentarily!
    code or JSON documents for further consumption by :ref:`pysnmp <pysnmp>`
    or other automation tools.
 
-* `ASN.1 types and codecs <https://www.pysnmp.com/pyasn1/>`_
+* `ASN.1 types and codecs <https://pyasn1.readthedocs.io/>`_
 
    `ASN.1 <https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One>`_
    is essentially a data serialisation technology on steroids. Many

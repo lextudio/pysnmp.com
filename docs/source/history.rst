@@ -13,7 +13,7 @@ networking field, so no doubt the need of a Python SNMP package was real but
 there wasn't a dominant package. Python guru Anthony Baxter once wrote the SNMPY
 package [2]_ as a thin wrapper over UCD-SNMP (later became NET-SNMP), when he
 needs to "manage some small ethernet switches" [3]_. SNMPY stopped in Mar 2001,
-after its Alpha 4 release.
+after its Alpha 4 release. Projects similar to SNMPY remain, such as Easy SNMP.
 
 However, due to the fact that SNMPY tightly binds to native (C based) binaries,
 Python developers found it unpleasant in many cases (such as non-blocking I/O),
@@ -52,9 +52,9 @@ PySNMP) nor inexio GmbH (a previous sponsor) planned to fully take over the
 responsibilities.
 
 Ilya passed away in Aug 2022, and some of Ilya's colleagues took over the ASN.1
-related Python packages but no significant changes were introduced.
+related Python packages [9]_ but no significant changes were introduced.
 
-LeXtudio Inc. announced its own plan to revive the ecosystem on GitHub [9]_.
+LeXtudio Inc. announced its own plan to revive the ecosystem on GitHub [10]_.
 
 .. rubric:: Footnotes
 
@@ -66,4 +66,5 @@ LeXtudio Inc. announced its own plan to revive the ecosystem on GitHub [9]_.
 .. [6] https://www.pysnmp.com/pysnmp/changelog
 .. [7] https://github.com/etingof?tab=overview&from=2016-02-01&to=2016-02-29
 .. [8] https://github.com/etingof?tab=overview&from=2020-12-01&to=2020-12-31
-.. [9] https://github.com/etingof/pysnmp/issues/429
+.. [9] https://github.com/pyasn1
+.. [10] https://github.com/etingof/pysnmp/issues/429
