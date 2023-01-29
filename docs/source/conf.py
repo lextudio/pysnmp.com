@@ -49,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'snmplabs.com'
+project = u'pysnmp.com'
 copyright = u'2017-2019, Ilya Etingof; © Copyright 2022-2023, LeXtudio Inc.'
 author = u'Ilya Etingof <etingof@gmail.com>; LeXtudio Inc. <support@lextudio.com>'
 
