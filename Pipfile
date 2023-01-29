@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 esbonio = "*"
 sphinx-sitemap = "*"
+sphinx-rtd-theme = "*"
 
 [dev-packages]
 

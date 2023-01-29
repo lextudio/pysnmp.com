@@ -16,7 +16,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -50,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'snmplabs.com'
-copyright = u'2017-2019, Ilya Etingof; 2022, LeXtudio Inc.'
+copyright = u'2017-2019, Ilya Etingof; © Copyright 2022-2023, LeXtudio Inc.'
 author = u'Ilya Etingof <etingof@gmail.com>; LeXtudio Inc. <support@lextudio.com>'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -67,7 +67,7 @@ release = u'0.1'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -83,31 +83,23 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 
+html_context = {
+    'display_github': True,
+    'github_user': 'lextudio',
+    'github_repo': 'snmplabs.com',
+    'github_version': 'main/docs/source/',
+}
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx-rtd-theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 # html_theme_options = {}
-html_theme_options = {
-    'logo': 'logo.svg',
-    'description': '<p align=left><i><b>Brewing free software for the communities</i></b></p>',
-    'show_powered_by': False,
-    'fixed_sidebar': True,
-}
-
-html_sidebars = {
-    '**': [
-        'about.html',
-        'localtoc.html',
-        'relations.html',
-        'donate.html',
-    ]
-}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -132,10 +124,10 @@ html_static_path = ['.static']
 html_favicon = '.static/favicon.ico'
 
 # If true, links to the reST sources are added to the pages.
-html_show_sourcelink = False
+#html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-html_show_sphinx = False
+#html_show_sphinx = False
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -193,5 +185,11 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-
-
+def setup(app):
+    on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+    if not on_rtd:
+        """Insert Google Analytics tracker
+        Based on this Stackoverflow suggestion: https://stackoverflow.com/a/41885884
+        """
+        app.add_js_file("https://www.googletagmanager.com/gtag/js?id=G-DYQGY4MKR3")
+        app.add_js_file("google_analytics_tracker.js")
