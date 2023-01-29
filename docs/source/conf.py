@@ -87,7 +87,7 @@ html_context = {
     'display_github': True,
     'github_user': 'lextudio',
     'github_repo': 'snmplabs.com',
-    'github_version': 'main/docs/source/',
+    'github_version': 'master/docs/source/',
 }
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
