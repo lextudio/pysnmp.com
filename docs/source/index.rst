@@ -18,6 +18,23 @@ Our expertise and interests somehow revolve around
 We mostly code our stuff in `Python <https://www.python.org>`_.
 You will notice that momentarily!
 
+.. _pysnmp:
+
+* `SNMP library for Python <https://www.pysnmp.com/pysnmp/>`_
+
+   The pysnmp project delivers the fully-functional SNMP engine
+   implementation in pure-Python. It support reasonably advanced
+   features such as SNMPv3 and IPv6, can deal with MIB files and
+   it is fully asynchronous internally.
+
+.. _snmpclitools:
+
+* `Command-line SNMP tools <https://www.pysnmp.com/snmpclitools>`_
+
+   The collection of command-line SNMP tools written in pure-Python
+   and tightly aligned with the de-facto standard SNMP tools that come
+   with Net-SNMP e.g. snmpget, snmpwalk and many others.
+
 .. _snmpsim:
 
 * `SNMP Agent Simulator <https://www.pysnmp.com/snmpsim>`_
@@ -50,23 +67,6 @@ You will notice that momentarily!
    populate these stubs with the code linking MIBs to the actual
    data sources to be managed.
 
-.. _snmpclitools:
-
-* `Command-line SNMP tools <https://www.pysnmp.com/snmpclitools>`_
-
-   The collection of command-line SNMP tools written in pure-Python
-   and tightly aligned with the de-facto standard SNMP tools that come
-   with Net-SNMP e.g. snmpget, snmpwalk and many others.
-
-.. _pysnmp:
-
-* `SNMP library for Python <https://www.pysnmp.com/pysnmp/>`_
-
-   The pysnmp project delivers the fully-functional SNMP engine
-   implementation in pure-Python. It support reasonably advanced
-   features such as SNMPv3 and IPv6, can deal with MIB files and
-   it is fully asynchronous internally.
-
 .. _pysmi:
 
 * `SNMP SMI compiler <https://www.pysnmp.com/pysmi/>`_
@@ -84,7 +84,8 @@ You will notice that momentarily!
    Internet, security and telecom protocols let alone data formats rely on
    ASN.1.
 
-   The pyasn1 library deals with ASN.1 data structures in pure Python.
+   The pyasn1 library deals with ASN.1 data structures in pure Python. This
+   library is now maintained by `a separate organization on GitHub`_.
 
 Our history
 -----------
@@ -118,3 +119,5 @@ for whatever purpose for as long as attribution is retained.
    :maxdepth: 2
 
    /license
+
+.. _a separate organization on GitHub: Generic ASN.1 library for Python: https://github.com/pyasn1/pyasn1
