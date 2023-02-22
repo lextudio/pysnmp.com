@@ -7,15 +7,14 @@ Welcome to PySNMP Documentation
 .. toctree::
    :maxdepth: 2
 
-The PySNMP organization aims at building high-quality, free and open source
-tools primarily in the area of network management and monitoring.
+The PySNMP ecosystem has been around for more than two decades,
+and consists of many useful projects.
 
-Our projects
+The projects
 ------------
 
-Our expertise and interests somehow revolve around
-`SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`_.
-We mostly code our stuff in `Python <https://www.python.org>`_.
+The projects are built upon the protocol of `SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`_
+and the language of `Python <https://www.python.org>`_.
 You will notice that momentarily!
 
 .. _pysnmp:
@@ -84,8 +83,9 @@ You will notice that momentarily!
    Internet, security and telecom protocols let alone data formats rely on
    ASN.1.
 
-   The pyasn1 library deals with ASN.1 data structures in pure Python. This
-   library is now maintained by `a separate organization on GitHub`_.
+   The pyasn1 library deals with ASN.1 data structures in pure Python.
+
+   .. note:: This library is now maintained by `a separate organization on GitHub`_.
 
 Our history
 -----------
@@ -106,7 +106,7 @@ Our services
 Source code
 -----------
 
-Projects source code is hosted on `GitHub <https://github.com/lextudio/pysnmp/>`_.
+Source code of the projects is hosted on `GitHub <https://github.com/lextudio/pysnmp/>`_.
 Everyone is welcome to fork, PR or open issues!
 
 License
