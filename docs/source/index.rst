@@ -21,11 +21,11 @@ Key Features
 - **Extensible Architecture**: Easily extend PySNMP with custom functionality to fit your specific needs.
 
 Getting Started
----------------
+^^^^^^^^^^^^^^^
 
 New to PySNMP? Start here to understand the basics and set up your SNMP environment:
 
-- `Introduction to SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`
+- `Introduction to SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`_
 
 PySNMP Ecosystem
 ----------------
@@ -55,7 +55,6 @@ Additional Resources
 
    /snmp-simulation-service
    /history
-   /license
 
 Contributing
 ------------
