@@ -4,7 +4,7 @@
 SNMP simulation service
 =======================
 
-The PySNMP organization hosts an SNMP Simulator instance on
+LeXtudio Inc. hosts an SNMP Simulator instance on
 `Microsoft Azure <https://azure.microsoft.com/>`_ in
 hope to help fellow software developers that are looking to test their
 SNMP code against live SNMP agents of different kinds.
@@ -41,6 +41,10 @@ There are four independent SNMP engines configured at different UDP ports:
    One process runs the first SNMP engine (*0x80004fb805636c6f75644dab22cc*)
    while the rest of SNMP engines in the table above are all local to the
    second SNMP simulator process.
+
+.. warning::
+
+    Engines at port 1161, 2161 and 3161 are currently disabled.
 
 .. _simulated-community-names:
 
@@ -186,6 +190,9 @@ by SNMP USM security model for cryptographic authentication and encryption.
    The AES-based privacy algorithms with key size 192bit+ are implemented along the lines of
    `draft-blumenthal-aes-usm-04 <https://tools.ietf.org/html/draft-blumenthal-aes-usm-04#section-3>`_)
    with either Reeder or Blumenthal  key localization.
+
+.. warning::
+   Blumenthal users are currently disabled.
 
 .. _master_and_localized_keys:
 
@@ -424,6 +431,10 @@ key `privkey1` and Security Engine ID `0x80004fb805636c6f75644dab22cc`
 
 Simulation data
 ---------------
+
+.. warning::
+
+    Simulation data is subject to change without notice.
 
 Each of the :ref:`SNMP engines <simulated-snmp-engines>` simulate multiple SNMP agents addressable
 by the following SNMP query parameters:

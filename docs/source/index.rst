@@ -4,120 +4,65 @@
 Welcome to PySNMP Documentation
 ===============================
 
-.. toctree::
-   :maxdepth: 2
+Welcome to the official documentation for PySNMP, a comprehensive SNMP ecosystem for `Python <https://www.python.org>`_ that has been empowering developers and network administrators to build SNMP-based applications for over two decades. PySNMP offers a rich set of libraries/tools enabling SNMPv3 and IPv6 support, MIB file handling, and asynchronous operations, all implemented in pure Python.
 
-The PySNMP ecosystem has been around for more than two decades,
-and consists of many useful projects.
-
-The projects
+Introduction
 ------------
 
-The projects are built upon the protocol of `SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`_
-and the language of `Python <https://www.python.org>`_.
-You will notice that momentarily!
+Simple Network Management Protocol (SNMP) is an essential method for managing and monitoring network devices. PySNMP leverages this protocol, combined with the power and simplicity of Python, to provide a versatile SNMP engine suitable for a wide range of applications.
 
-.. _pysnmp:
+Key Features
+^^^^^^^^^^^^
 
-* `SNMP library for Python <https://www.pysnmp.com/pysnmp/>`_
+- **Full SNMPv1, v2c, and v3 Support**: Including advanced features such as user-based security model (USM) and view-based access control model (VACM).
+- **IPv6 Ready**: Full support for managing IPv6 devices.
+- **Asynchronous Operation**: Built to handle large networks and asynchronous operations efficiently.
+- **MIB Handling**: Compile MIBs into Python modules for easy access to named OIDs.
+- **Extensible Architecture**: Easily extend PySNMP with custom functionality to fit your specific needs.
 
-   The pysnmp project delivers the fully-functional SNMP engine
-   implementation in pure-Python. It support reasonably advanced
-   features such as SNMPv3 and IPv6, can deal with MIB files and
-   it is fully asynchronous internally.
+Getting Started
+---------------
 
-.. _snmpclitools:
+New to PySNMP? Start here to understand the basics and set up your SNMP environment:
 
-* `Command-line SNMP tools <https://www.pysnmp.com/snmpclitools>`_
+- `Introduction to SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`
 
-   The collection of command-line SNMP tools written in pure-Python
-   and tightly aligned with the de-facto standard SNMP tools that come
-   with Net-SNMP e.g. snmpget, snmpwalk and many others.
+PySNMP Ecosystem
+----------------
 
-.. _snmpsim:
+PySNMP is more than just an SNMP library. It's part of a larger ecosystem designed to address various SNMP-related tasks:
 
-* `SNMP Agent Simulator <https://www.pysnmp.com/snmpsim>`_
+Core Library
+^^^^^^^^^^^^
 
-   The SNMP Agent Simulator tool pretends to be a large network of
-   SNMP-speaking devices. It aims at helping fellow developers and
-   QE people to model the environment their products will work in
-   once released out to the world.
+- `SNMP library for Python <https://www.pysnmp.com/pysnmp/>`_: The core PySNMP library, implementing the SNMP engine in Python.
 
-.. _snmpfwd:
+Tools and Utilities
+^^^^^^^^^^^^^^^^^^^
 
-* `SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd>`_
+- `Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools>`_: A suite of command-line tools for SNMP operations, compatible with Net-SNMP utilities.
+- `SNMP Agent Simulator <https://www.pysnmp.com/snmpsim>`_: Simulate networks of SNMP devices for testing and development purposes.
+- `SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd>`_: Enhance the security and flexibility of SNMP communications in your network.
+- `SNMP Command Responder <https://www.pysnmp.com/snmpresponder>`_: An extendable SNMP agent framework for custom SNMP-based solutions.
+- `SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>`_: Convert MIBs into Python modules or JSON documents for use with PySNMP or other tools.
+- `ASN.1 Types and Codecs <https://pyasn1.readthedocs.io/>`_: Work with ASN.1 data structures in Python.
 
-   The alternative acronym for *SNMP* is *Security? Not My Problem!* The
-   SNMP Proxy Forwarder tool tries to improve the security and usability
-   of the SNMP technology in many ways.
-
-   For example it can shield your totally insecure SNMPv1 device from the
-   hostile network by putting this proxy tool in front of it and only
-   expose cryptographically sound SNMPv3 to the world.
-
-.. _snmpresponder:
-
-* `SNMP Command Responder <https://www.pysnmp.com/snmpresponder>`_
-
-   The SNMP Command Responder tool is a general purpose, cross-platform,
-   extendable and multi-protocol SNMP agent implementation.
-
-   Users can generate Python code stubs from the ASN.1 MIB files, then
-   populate these stubs with the code linking MIBs to the actual
-   data sources to be managed.
-
-.. _pysmi:
-
-* `SNMP SMI compiler <https://www.pysnmp.com/pysmi/>`_
-
-   With SNMP, the things you can tackle are formally expressed in the
-   `SMI <https://en.wikipedia.org/wiki/Structure_of_Management_Information>`_
-   language. The SMI compiler can parse those MIB files into Python
-   code or JSON documents for further consumption by :ref:`pysnmp <pysnmp>`
-   or other automation tools.
-
-* `ASN.1 types and codecs <https://pyasn1.readthedocs.io/>`_
-
-   `ASN.1 <https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One>`_
-   is essentially a data serialisation technology on steroids. Many
-   Internet, security and telecom protocols let alone data formats rely on
-   ASN.1.
-
-   The pyasn1 library deals with ASN.1 data structures in pure Python.
-
-   .. note:: This library is now maintained by `a separate organization on GitHub`_.
-
-Our history
------------
+Additional Resources
+^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :maxdepth: 2
-
-   /history
-
-Our services
-------------
-
-.. toctree::
-   :maxdepth: 2
+   :titlesonly:
 
    /snmp-simulation-service
+   /history
+   /license
 
-Source code
------------
+Contributing
+------------
 
-Source code of the projects is hosted on `GitHub <https://github.com/lextudio/pysnmp/>`_.
-Everyone is welcome to fork, PR or open issues!
+PySNMP is an open-source project, and contributions are welcome. Visit our `GitHub repository <https://github.com/lextudio/pysnmp/>`_ to fork, submit PRs, or report issues.
 
 License
 -------
 
-In essence, everyone is welcome to take, use or modify PySNMP software
-for whatever purpose for as long as attribution is retained.
-
-.. toctree::
-   :maxdepth: 2
-
-   /license
-
-.. _a separate organization on GitHub: Generic ASN.1 library for Python: https://github.com/pyasn1/pyasn1
+PySNMP is freely available under terms that allow for both personal and commercial use. Learn more about the PySNMP license in the :doc:`/license`.
