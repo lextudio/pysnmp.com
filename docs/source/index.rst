@@ -4,9 +4,6 @@
 Welcome to PySNMP Documentation
 ===============================
 
-.. toctree::
-   :maxdepth: 2
-
 Welcome to the official documentation for PySNMP, a comprehensive SNMP ecosystem for `Python <https://www.python.org>`_ that has been empowering developers and network administrators to build SNMP-based applications for over two decades. PySNMP offers a rich set of libraries/tools enabling SNMPv3 and IPv6 support, MIB file handling, and asynchronous operations, all implemented in pure Python.
 
 Introduction
@@ -56,8 +53,8 @@ Additional Resources
 .. toctree::
    :titlesonly:
 
-   /snmp-simulation-service
    /history
+   /snmp-simulation-service
 
 Contributing
 ------------
