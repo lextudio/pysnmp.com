@@ -1,7 +1,7 @@
 
 .. _snmp-simulation-service:
 
-SNMP simulation service
+SNMP Simulation Service
 =======================
 
 LeXtudio Inc. hosts an SNMP Simulator instance on
@@ -14,11 +14,11 @@ reliability and correctness. Its use is generally covered
 by SNMP Simulator :doc:`/license`.
 
 In case of any troubles or suggestions, please
-`open up a <https://github.com/lextudio/pysnmp/issues/new>`_ GitHub issue.
+`open up a GitHub issue <https://github.com/lextudio/pysnmp/issues/new>`_.
 
 .. _simulated-snmp-engines:
 
-SNMP engines
+SNMP Engines
 ------------
 
 There are four independent SNMP engines configured at different UDP ports:
@@ -48,7 +48,7 @@ There are four independent SNMP engines configured at different UDP ports:
 
 .. _simulated-community-names:
 
-SNMPv1/v2c communities
+SNMPv1/v2c Communities
 ----------------------
 
 Each of the :ref:`SNMP engines <simulated-snmp-engines>` supports a
@@ -67,7 +67,7 @@ Each :ref:`SNMP engine <simulated-snmp-engines>` has a bunch of USM users
 configured to it. The users are named after authentication/encryption protocol
 combinations for convenience.
 
-SNMPv3 user table
+SNMPv3 User Table
 +++++++++++++++++
 
 The following table includes plain-text keys (AKA passwords or pass-phrases) used
@@ -196,7 +196,7 @@ by SNMP USM security model for cryptographic authentication and encryption.
 
 .. _master_and_localized_keys:
 
-Master and localized keys
+Master and Localized Keys
 +++++++++++++++++++++++++
 
 Internally, SNMP USM stores hashes of the plain-text keys in two forms:
@@ -429,7 +429,7 @@ key `privkey1` and Security Engine ID `0x80004fb805636c6f75644dab22cc`
 
 .. _simulated-data:
 
-Simulation data
+Simulation Data
 ---------------
 
 .. warning::
@@ -453,7 +453,7 @@ by the following SNMP query parameters:
 | Simulated IF-MIB::interfaces table with ever increasing counters   | variation/virtualtable             | 329a935947144eb87ad0cdc5e08927b1   |
 +--------------------------------------------------------------------+------------------------------------+------------------------------------+
 
-TRAP sink
+TRAP Sink
 ---------
 
 Besides simulated SNMP Agents we are also running a multilingual
@@ -473,7 +473,7 @@ you will get an acknowledgement for the INFORM packets you send us.
 Examples
 --------
 
-Variated table walk
+Variated Table Walk
 +++++++++++++++++++
 
 To query simulated live `IF-MIB::interfaces <http://mibs.pysnmp.com/asn1/IF-MIB>`_ over
@@ -484,7 +484,7 @@ SNMPv2c use the following command:
     $ snmpwalk -v2c -c variation/virtualtable \
         demo.pysnmp.com IF-MIB::interfaces
 
-Modify managed objects
+Modify Managed Objects
 ++++++++++++++++++++++
 
 Some of the simulated objects are configured writable so you can experiment
@@ -508,7 +508,7 @@ with SNMP SET:
     SNMPv2-MIB::sysORDescr.1 = STRING: Here is my new note
     SNMPv2-MIB::sysORUpTime.1 = Timeticks: (321) 0:00:03.21
 
-Discover agents
+Discover Agents
 +++++++++++++++
 
 The above table is not complete, you could always figure out the most
@@ -523,7 +523,7 @@ off the SNMP Simulator:
     SNMPv2-SMI::enterprises.20408.999.1.1.3 = STRING: "/usr/snmpsim/data/foreignformats/winxp2.sapwalk"
     ...
 
-SNMPv3 commands
+SNMPv3 Commands
 +++++++++++++++
 
 SNMPv3 command example using `MD5` protocol for authentication, `DES` for
@@ -570,7 +570,7 @@ privacy and localized keys:
    seem to have some fuzziness inside that makes them finding localized
    keys even without `-e` option.
 
-SNMPv3 notifications
+SNMPv3 Notifications
 ++++++++++++++++++++
 
 Example SNMPv3 TRAP would look like this:

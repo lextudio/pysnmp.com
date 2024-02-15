@@ -4,15 +4,15 @@
 Welcome to PySNMP Documentation
 ===============================
 
+.. toctree::
+   :maxdepth: 2
+
 Welcome to the official documentation for PySNMP, a comprehensive SNMP ecosystem for `Python <https://www.python.org>`_ that has been empowering developers and network administrators to build SNMP-based applications for over two decades. PySNMP offers a rich set of libraries/tools enabling SNMPv3 and IPv6 support, MIB file handling, and asynchronous operations, all implemented in pure Python.
 
-Introduction
+Key Features
 ------------
 
 Simple Network Management Protocol (SNMP) is an essential method for managing and monitoring network devices. PySNMP leverages this protocol, combined with the power and simplicity of Python, to provide a versatile SNMP engine suitable for a wide range of applications.
-
-Key Features
-^^^^^^^^^^^^
 
 - **Full SNMPv1, v2c, and v3 Support**: Including advanced features such as user-based security model (USM) and view-based access control model (VACM).
 - **IPv6 Ready**: Full support for managing IPv6 devices.
@@ -21,34 +21,44 @@ Key Features
 - **Extensible Architecture**: Easily extend PySNMP with custom functionality to fit your specific needs.
 
 Getting Started
-^^^^^^^^^^^^^^^
+---------------
 
 New to PySNMP? Start here to understand the basics and set up your SNMP environment:
 
-- `Introduction to SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`_
+.. toctree::
+   :maxdepth: 2
 
-PySNMP Ecosystem
-----------------
-
-PySNMP is more than just an SNMP library. It's part of a larger ecosystem designed to address various SNMP-related tasks:
+   Introduction to SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>
+   SNMP Guru GPT <https://chat.openai.com/g/g-ZWj5VHbh7-snmp-guru>
 
 Core Library
-^^^^^^^^^^^^
+------------
 
-- `SNMP library for Python <https://www.pysnmp.com/pysnmp/>`_: The core PySNMP library, implementing the SNMP engine in Python.
+The core PySNMP library implements the SNMP engine in Python.
+
+.. toctree::
+   :maxdepth: 2
+
+   SNMP Library for Python <https://www.pysnmp.com/pysnmp/>
+   SNMP Library Quick Start <https://www.pysnmp.com/pysnmp/quick-start>
 
 Tools and Utilities
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
-- `Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools>`_: A suite of command-line tools for SNMP operations, compatible with Net-SNMP utilities.
-- `SNMP Agent Simulator <https://www.pysnmp.com/snmpsim>`_: Simulate networks of SNMP devices for testing and development purposes.
-- `SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd>`_: Enhance the security and flexibility of SNMP communications in your network.
-- `SNMP Command Responder <https://www.pysnmp.com/snmpresponder>`_: An extendable SNMP agent framework for custom SNMP-based solutions.
-- `SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>`_: Convert MIBs into Python modules or JSON documents for use with PySNMP or other tools.
-- `ASN.1 Types and Codecs <https://pyasn1.readthedocs.io/>`_: Work with ASN.1 data structures in Python.
+A variety of tools and utilities have been developed to help you manage and monitor your network devices.
+
+.. toctree::
+   :maxdepth: 2
+
+   Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools>
+   SNMP Agent Simulator <https://www.pysnmp.com/snmpsim>
+   SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd>
+   SNMP Command Responder <https://www.pysnmp.com/snmpresponder>
+   SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>
+   ASN.1 Types and Codecs <https://pyasn1.readthedocs.io/>
 
 Additional Resources
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 .. toctree::
    :titlesonly:
