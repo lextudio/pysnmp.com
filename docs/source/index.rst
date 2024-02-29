@@ -12,18 +12,26 @@ Welcome to the official documentation for PySNMP, a comprehensive SNMP ecosystem
 Key Features
 ------------
 
-Simple Network Management Protocol (SNMP) is an essential method for managing and monitoring network devices. PySNMP leverages this protocol, combined with the power and simplicity of Python, to provide a versatile SNMP engine suitable for a wide range of applications.
+Simple Network Management Protocol (SNMP) is an essential method for managing
+and monitoring network devices. PySNMP leverages this protocol, combined with
+the power and simplicity of Python, to provide a versatile SNMP engine suitable
+for a wide range of applications.
 
-- **Full SNMPv1, v2c, and v3 Support**: Including advanced features such as user-based security model (USM) and view-based access control model (VACM).
+- **Full SNMPv1, v2c, and v3 Support**: Including advanced features such as
+  user-based security model (USM) and view-based access control model (VACM).
 - **IPv6 Ready**: Full support for managing IPv6 devices.
-- **Asynchronous Operation**: Built to handle large networks and asynchronous operations efficiently.
-- **MIB Handling**: Compile MIBs into Python modules for easy access to named OIDs.
-- **Extensible Architecture**: Easily extend PySNMP with custom functionality to fit your specific needs.
+- **Asynchronous Operation**: Built to handle large networks and asynchronous
+  operations efficiently.
+- **MIB Handling**: Compile MIBs into Python modules for easy access to named
+  OIDs.
+- **Extensible Architecture**: Easily extend PySNMP with custom functionality
+  to fit your specific needs.
 
 Getting Started
 ---------------
 
-New to PySNMP? Start here to understand the basics and set up your SNMP environment:
+New to PySNMP? Start here to understand the basics and set up your SNMP
+environment:
 
 .. toctree::
    :maxdepth: 2
@@ -34,7 +42,8 @@ New to PySNMP? Start here to understand the basics and set up your SNMP environm
 Core Library
 ------------
 
-The core PySNMP library implements the SNMP engine in Python.
+The core PySNMP library implements the SNMP engine in Python. Its source code
+is hosted at GitHub `https://github.com/lextudio/pysnmp/ <https://github.com/lextudio/pysnmp/>`_.
 
 .. toctree::
    :maxdepth: 2
@@ -45,7 +54,8 @@ The core PySNMP library implements the SNMP engine in Python.
 Tools and Utilities
 -------------------
 
-A variety of tools and utilities have been developed to help you manage and monitor your network devices.
+A variety of tools and utilities have been developed to help you manage and
+monitor your network devices.
 
 .. toctree::
    :maxdepth: 2
@@ -74,4 +84,5 @@ PySNMP is an open-source project, and contributions are welcome. Visit our `GitH
 License
 -------
 
-PySNMP is freely available under terms that allow for both personal and commercial use. Learn more about the PySNMP license in the :doc:`/license`.
+PySNMP is freely available under terms that allow for both personal and
+commercial use. Learn more about the PySNMP license in the :doc:`/license`.
