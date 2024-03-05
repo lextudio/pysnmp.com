@@ -1,5 +1,6 @@
+.. include:: /includes/_links.rst
 
-.. _snmplabs.com:
+.. _pysnmp.com:
 
 Welcome to PySNMP Documentation
 ===============================
@@ -7,7 +8,11 @@ Welcome to PySNMP Documentation
 .. toctree::
    :maxdepth: 2
 
-Welcome to the official documentation for PySNMP, a comprehensive SNMP ecosystem for `Python <https://www.python.org>`_ that has been empowering developers and network administrators to build SNMP-based applications for over two decades. PySNMP offers a rich set of libraries/tools enabling SNMPv3 and IPv6 support, MIB file handling, and asynchronous operations, all implemented in pure Python.
+Welcome to the official documentation for PySNMP, a comprehensive SNMP
+ecosystem for `Python`_ that has been empowering developers and network
+administrators to build SNMP-based applications for over two decades. PySNMP
+offers a rich set of libraries/tools enabling SNMPv3 and IPv6 support, MIB file
+handling, and asynchronous operations, all implemented in pure Python.
 
 Key Features
 ------------
@@ -43,7 +48,7 @@ Core Library
 ------------
 
 The core PySNMP library implements the SNMP engine in Python. Its source code
-is hosted at GitHub `https://github.com/lextudio/pysnmp/ <https://github.com/lextudio/pysnmp/>`_.
+is hosted at GitHub `https://github.com/lextudio/pysnmp <https://github.com/lextudio/pysnmp>`_.
 
 .. toctree::
    :maxdepth: 2
@@ -75,14 +80,15 @@ Additional Resources
 
    /history
    /snmp-simulation-service
+   /support
+   /license
 
 Contributing
 ------------
 
-PySNMP is an open-source project, and contributions are welcome. Visit our `GitHub repository <https://github.com/lextudio/pysnmp/>`_ to fork, submit PRs, or report issues.
-
-License
--------
+PySNMP is an open-source project, and contributions are welcome. Visit our
+`PySNMP GitHub repository`_ to fork, submit PRs, or report issues.
 
 PySNMP is freely available under terms that allow for both personal and
-commercial use. Learn more about the PySNMP license in the :doc:`/license`.
+commercial use. Learn more about the PySNMP license in the :doc:`/license`
+section.

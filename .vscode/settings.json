@@ -1,3 +1,5 @@
 {
-    "esbonio.sphinx.confDir": "${workspaceFolder}/docs/source",
+    "editor.rulers": [
+        80
+    ]
 }

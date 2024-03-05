@@ -596,3 +596,11 @@ securityEngineId should not be used:
         -x des -X privkey1 \
         demo.pysnmp.com 12345 \
         1.3.6.1.4.1.20408.4.1.1.2 1.3.6.1.2.1.1.1.0 s hello
+
+References
+----------
+
+- :doc:`/support`
+- `PySNMP Quick Start <https://www.pysnmp.com/pysnmp/quick-start>`_
+- :doc:`/license`
+- :doc:`/history`

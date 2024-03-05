@@ -68,3 +68,10 @@ LeXtudio Inc. announced its own plan to revive the ecosystem on GitHub [10]_.
 .. [8] https://github.com/etingof?tab=overview&from=2020-12-01&to=2020-12-31
 .. [9] https://github.com/pyasn1
 .. [10] https://github.com/etingof/pysnmp/issues/429
+
+References
+----------
+
+- :doc:`/support`
+- `PySNMP Quick Start <https://www.pysnmp.com/pysnmp/quick-start>`_
+- :doc:`/license`
