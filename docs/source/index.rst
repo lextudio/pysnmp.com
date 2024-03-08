@@ -2,8 +2,8 @@
 
 .. _pysnmp.com:
 
-Welcome to PySNMP Documentation
-===============================
+Welcome to PySNMP 6.0 Documentation
+===================================
 
 .. toctree::
    :maxdepth: 2
