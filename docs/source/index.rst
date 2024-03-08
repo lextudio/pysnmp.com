@@ -2,13 +2,13 @@
 
 .. _pysnmp.com:
 
-Welcome to PySNMP 6.0 Documentation
-===================================
+Welcome to PySNMP 6.0 Homepage
+==============================
 
 .. toctree::
    :maxdepth: 2
 
-Welcome to the official documentation for PySNMP, a comprehensive SNMP
+Welcome to the new homepage for PySNMP. This is a comprehensive SNMP
 ecosystem for `Python`_ that has been empowering developers and network
 administrators to build SNMP-based applications for over two decades. PySNMP
 offers a rich set of libraries/tools enabling SNMPv3 and IPv6 support, MIB file
@@ -53,7 +53,7 @@ is hosted at GitHub `https://github.com/lextudio/pysnmp <https://github.com/lext
 .. toctree::
    :maxdepth: 2
 
-   SNMP Library for Python <https://www.pysnmp.com/pysnmp/>
+   SNMP Library for Python 6.0 <https://www.pysnmp.com/pysnmp/>
    SNMP Library Quick Start <https://www.pysnmp.com/pysnmp/quick-start>
 
 Tools and Utilities
