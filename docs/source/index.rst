@@ -78,10 +78,11 @@ Additional Resources
 .. toctree::
    :titlesonly:
 
-   /history
-   /snmp-simulation-service
-   /support
-   /license
+   history
+   snmp-simulation-service
+   support
+   license
+   privacy
 
 Contributing
 ------------
