@@ -56,6 +56,19 @@ is hosted at GitHub `https://github.com/lextudio/pysnmp <https://github.com/lext
    SNMP Library for Python 6.0 <https://www.pysnmp.com/pysnmp/>
    SNMP Library Quick Start <https://www.pysnmp.com/pysnmp/quick-start>
 
+This library has been used by many other Python projects, including:
+
+
+
+.. list-table:: Some Projects Using PySNMP
+    :widths: 50 50
+    :header-rows: 1
+
+    * - OpenStack
+      - Home Assistant
+    * - .. image:: .static/OpenStack-Logo-Vertical.png
+      - .. image:: .static/home-assistant-logo-vertical.svg
+
 Tools and Utilities
 -------------------
 
