@@ -61,13 +61,15 @@ This library has been used by many other Python projects, including:
 
 
 .. list-table:: Some Projects Using PySNMP
-    :widths: 50 50
+    :widths: 128 128
     :header-rows: 1
 
     * - OpenStack
       - Home Assistant
     * - .. image:: _static/OpenStack-Logo-Vertical.png
+           :width: 128
       - .. image:: _static/home-assistant-logo-vertical.svg
+           :width: 128
 
 Tools and Utilities
 -------------------
