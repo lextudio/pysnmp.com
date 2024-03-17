@@ -66,8 +66,8 @@ This library has been used by many other Python projects, including:
 
     * - OpenStack
       - Home Assistant
-    * - .. image:: .static/OpenStack-Logo-Vertical.png
-      - .. image:: .static/home-assistant-logo-vertical.svg
+    * - .. image:: _static/OpenStack-Logo-Vertical.png
+      - .. image:: _static/home-assistant-logo-vertical.svg
 
 Tools and Utilities
 -------------------
