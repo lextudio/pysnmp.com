@@ -1,0 +1,4 @@
+/* Apply white background only to images with the 'white-background' class */
+img.white-background {
+    background-color: white;
+}

@@ -68,8 +68,10 @@ This library has been used by many other Python projects, including:
       - Home Assistant
     * - .. image:: _static/OpenStack-Logo-Vertical.png
            :width: 128
+           :class: white-background
       - .. image:: _static/home-assistant-logo-vertical.svg
            :width: 128
+           :class: white-background
 
 Tools and Utilities
 -------------------

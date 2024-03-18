@@ -75,7 +75,8 @@ language = "en"
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = "sphinx"
+pygments_style = 'sphinx'
+pygments_dark_style = 'monokai'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
@@ -83,40 +84,52 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 
-html_context = {
-    "display_github": True,
-    "github_user": "lextudio",
-    "github_repo": "snmplabs.com",
-    "github_version": "master/docs/source/",
+html_theme_options = {
+    'source_repository': 'https://github.com/lextudio/snmplabs.com',
+    'source_branch': 'master',
+    'source_directory': 'docs/source/',
+    "light_css_variables": {
+        "color-brand-primary": "white",
+        "color-brand-content": "#CC3333",
+        "color-admonition-background": "blue",
+    },
+    "footer_icons": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/lextudio/snmplabs.com",
+            "html": "",
+            "class": "fa-brands fa-solid fa-github fa-2x",
+        },
+    ],
 }
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"
+html_theme = 'furo'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+
+html_css_files = [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css",
+    "custom.css"
+]
+
+html_js_files = [
+    "custom.js"
+]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-# Custom sidebar templates, must be a dictionary that maps document names
-# to template names.
-#
-# This is required for the alabaster theme
-# refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
-# html_sidebars = {
-#     '**': [
-#         'relations.html',  # needs 'show_related': True theme option to display
-#         'searchbox.html',
-#     ]
-# }
+html_title = 'PySNMP 6.0 Homepage'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
