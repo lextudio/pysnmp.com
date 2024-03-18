@@ -1,0 +1,23 @@
+{% extends "!page.html" %}
+
+{% block right_sidebar %}
+
+<!-- TOC -->
+<div>
+  <div style="text-align: center; font-size: small; margin: 5px; color: gray">Advertisement</div>
+  <div data-type="ad" data-publisher="lqm.lexli.site" data-format="300x250" data-zone="ros" data-tags="developer%2cnetworking%2copen%20source%2ccloud%20computing%2cmicrosoft%2cpython%2ciis%2chttp"></div>
+</div>
+
+{{ super() }}
+{% endblock right_sidebar %}
+
+{% block footer %}
+
+{{ super() }}
+
+<div>
+  <div style="text-align: center; font-size: small; margin: 5px; color: gray">Advertisement</div>
+  <div data-type="ad" data-publisher="lqm.lexli.site" data-format="728x90" data-zone="ros" data-tags="developer%2cnetworking%2copen%20source%2ccloud%20computing%2cmicrosoft%2cpython%2ciis%2chttp"></div>
+</div>
+
+{% endblock footer %}
