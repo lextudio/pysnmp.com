@@ -5,8 +5,8 @@ License
 
 .. include:: ../../LICENSE.rst
 
-References
-----------
+Related Resources
+-----------------
 
 - :doc:`/support`
 - `PySNMP Quick Start <https://www.pysnmp.com/pysnmp/quick-start>`_

@@ -93,8 +93,8 @@ compliance.
 .. [9] https://github.com/pyasn1
 .. [10] https://github.com/etingof/pysnmp/issues/429
 
-References
-----------
+Related Resources
+-----------------
 
 - :doc:`/support`
 - `PySNMP Quick Start <https://www.pysnmp.com/pysnmp/quick-start>`_

@@ -83,8 +83,8 @@ there's a support option that suits your needs. The key is to choose the
 support option that best aligns with your needs and preferences, and make the
 most of the resources and assistance available to you.
 
-References
-----------
+Related Resources
+-----------------
 
 - :doc:`/history`
 - `PySNMP Quick Start <https://www.pysnmp.com/pysnmp/quick-start>`_
