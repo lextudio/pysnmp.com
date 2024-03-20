@@ -82,10 +82,10 @@ monitor your network devices.
 .. toctree::
    :maxdepth: 2
 
-   Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools>
-   SNMP Agent Simulator <https://www.pysnmp.com/snmpsim>
-   SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd>
-   SNMP Command Responder <https://www.pysnmp.com/snmpresponder>
+   Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools/>
+   SNMP Agent Simulator <https://www.pysnmp.com/snmpsim/>
+   SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd/>
+   SNMP Command Responder <https://www.pysnmp.com/snmpresponder/>
    SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>
    ASN.1 Types and Codecs <https://pyasn1.readthedocs.io/>
 
