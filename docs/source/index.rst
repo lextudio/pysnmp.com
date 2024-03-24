@@ -83,7 +83,9 @@ monitor your network devices.
    :maxdepth: 2
 
    Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools/>
-   SNMP Agent Simulator <https://www.pysnmp.com/snmpsim/>
+   SNMP Simulator <https://www.pysnmp.com/snmpsim/>
+   SNMP Simulator Control Plane <https://www.pysnmp.com/snmpsim-control-plane/>
+   SNMP Simulator Data <https://www.pysnmp.com/snmpsim-data/>
    SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd/>
    SNMP Command Responder <https://www.pysnmp.com/snmpresponder/>
    SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>
