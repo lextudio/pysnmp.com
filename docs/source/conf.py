@@ -35,6 +35,7 @@ extensions = ["sphinx_sitemap"]
 
 html_baseurl = "https://www.pysnmp.com/"
 sitemap_url_scheme = "{link}"
+sitemap_suffix_included = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
