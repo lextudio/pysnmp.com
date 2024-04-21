@@ -31,7 +31,12 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx_sitemap"]
+extensions = [
+    "sphinx_sitemap",
+    "notfound.extension",
+]
+
+notfound_urls_prefix = None
 
 html_baseurl = "https://www.pysnmp.com/"
 sitemap_url_scheme = "{link}"
