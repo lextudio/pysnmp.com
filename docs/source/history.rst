@@ -78,7 +78,7 @@ more work on improving individual packages.
 The new PySNMP release 6.0 in Feb 2024 was a major milestone that removed
 legacy code around asyncore and also introduced newly designed sync API based
 on asyncio. Other changes improved unit test coverage as well as SNMP standard
-compliance.
+compliance. Release 6.1 in Mar 2024 added support of latest PySMI releases.
 
 .. rubric:: Footnotes
 
