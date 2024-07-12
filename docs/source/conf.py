@@ -55,7 +55,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "PySNMP 6.1 Homepage"
+project = "PySNMP 6.2 Homepage"
 copyright = "2017-2020, Ilya Etingof. © Copyright 2022-2024, LeXtudio Inc."
 author = "Ilya Etingof <etingof@gmail.com>; LeXtudio Inc. <support@lextudio.com>"
 
@@ -91,7 +91,7 @@ todo_include_todos = False
 # -- Options for HTML output ----------------------------------------------
 
 html_theme_options = {
-    'announcement': '<em>News:</em> PySNMP 6.1 is out! Learn more from <a href="https://www.pysnmp.com/pysnmp/upgrade">this page</a>.',
+    'announcement': '<em>News:</em> PySNMP 6.2 is out! Learn more from <a href="https://www.pysnmp.com/pysnmp/upgrade">this page</a>.',
     'source_repository': 'https://github.com/lextudio/snmplabs.com',
     'source_branch': 'master',
     'source_directory': 'docs/source/',
@@ -131,7 +131,7 @@ html_js_files = [
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-html_title = 'PySNMP 6.1 Homepage'
+html_title = 'PySNMP 6.2 Homepage'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
