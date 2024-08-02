@@ -59,6 +59,17 @@ issues in the future.
 Commercial Support
 ------------------
 
+While community support is a great way to seek help and learn from others, it
+may not always be sufficient for organizations with specific needs and
+requirements. For example,
+
+* Volunteers from the community may not always be available to help you.
+* No guarantee of response time.
+* No guarantee of issue resolution.
+* Contents shared on such sites are visible to everyone.
+* Complex issues that require troubleshooting assistance may not be resolved
+  due to either lack of expertise or dedicated time.
+
 For organizations that require dedicated assistance and priority support,
 `LeXtudio Inc.`_, the current maintainer of PySNMP, offers commercial support
 contracts. These contracts provide direct access to the current core PySNMP
@@ -68,13 +79,16 @@ Commercial support is a premium service that caters to the specific needs of
 organizations. It's designed to provide a higher level of technical support
 service than community support or GitHub. With commercial support, you get
 priority access to the development team, which means your issues are addressed
-first. This can be crucial for organizations where time is of the essence and
-issues need to be resolved quickly.
+with higher priority. This can be crucial for organizations where time is of
+the essence and issues need to be resolved quickly.
 
 Moreover, with commercial support, you get dedicated assistance. This means you
 have a team of experts at your disposal who are committed to helping you
 resolve your issues. They understand your needs and preferences and provide
 personalized support to ensure your satisfaction.
+
+You can purchase commercial support contracts by contacting `LeXtudio Inc.`_,
+or via the links below:
 
 .. raw:: html
 
