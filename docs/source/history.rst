@@ -81,6 +81,9 @@ on asyncio. Other changes improved unit test coverage as well as SNMP standard
 compliance. Release 6.1 in Mar 2024 added support of latest PySMI releases.
 Release 6.2 in Jul 2024 removed the problematic sync API based on asyncio.
 
+The new release 7.0 started to clean up the code base further to meet PEP8 and
+other Python standards.
+
 .. rubric:: Footnotes
 
 .. [1] https://en.wikipedia.org/wiki/Python_(programming_language)

@@ -2,8 +2,8 @@
 
 .. _pysnmp.com:
 
-Welcome to PySNMP 6.2 Homepage
-==============================
+Welcome to PySNMP 7 Homepage
+============================
 
 .. toctree::
    :maxdepth: 2
@@ -53,7 +53,7 @@ is hosted at GitHub `https://github.com/lextudio/pysnmp <https://github.com/lext
 .. toctree::
    :maxdepth: 2
 
-   SNMP Library for Python 6.2 <https://www.pysnmp.com/pysnmp/>
+   SNMP Library for Python 7 <https://www.pysnmp.com/pysnmp/>
    SNMP Library Quick Start <https://www.pysnmp.com/pysnmp/quick-start>
 
 This library has been used by many other Python projects, including:
