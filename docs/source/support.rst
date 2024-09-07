@@ -92,10 +92,10 @@ or via the links below:
 
 .. raw:: html
 
-    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-    <stripe-pricing-table pricing-table-id="prctbl_1PcADFAd8zPsD0tk9YK0xtqm"
-    publishable-key="pk_live_51Iv1HkAd8zPsD0tk1fblws8dATC8VyEzSRBQVWpoDh2zYFc955Qv8xHRzFI86ScSiYVheXEeieLwbYPdIXt9GknJ00jpF2F3tc">
-    </stripe-pricing-table>
+  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+  <stripe-pricing-table pricing-table-id="prctbl_1PwXrRAd8zPsD0tklc56wC0H"
+  publishable-key="pk_live_51Iv1HkAd8zPsD0tk1fblws8dATC8VyEzSRBQVWpoDh2zYFc955Qv8xHRzFI86ScSiYVheXEeieLwbYPdIXt9GknJ00jpF2F3tc">
+  </stripe-pricing-table>
 
 In conclusion, the PySNMP ecosystem offers a variety of support options to
 cater to the diverse needs of its users. Whether you prefer to seek help from
