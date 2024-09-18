@@ -91,7 +91,7 @@ todo_include_todos = False
 # -- Options for HTML output ----------------------------------------------
 
 html_theme_options = {
-    'announcement': '<em>News:</em> PySNMP 7.1 is out! Learn more from <a href="https://www.pysnmp.com/pysnmp/upgrade">this page</a>.',
+    'announcement': '<em>News:</em> PySNMP 7 is out! Learn more from <a href="https://www.pysnmp.com/pysnmp/upgrade">this page</a>.',
     'source_repository': 'https://github.com/lextudio/snmplabs.com',
     'source_branch': 'master',
     'source_directory': 'docs/source/',

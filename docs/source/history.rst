@@ -73,16 +73,19 @@ in 2022, and started to invest in the ecosystem.
 
 They were able to continue Splunk team's work and shipped the initial packages.
 Throughout the year of 2023, they steadily picked up momentum and delivered
-more work on improving individual packages.
+more work on improving individual packages, which remained as version 5.0.
 
-The new PySNMP release 6.0 in Feb 2024 was a major milestone that removed
-legacy code around asyncore and also introduced newly designed sync API based
-on asyncio. Other changes improved unit test coverage as well as SNMP standard
-compliance. Release 6.1 in Mar 2024 added support of latest PySMI releases.
-Release 6.2 in Jul 2024 removed the problematic sync API based on asyncio.
+Next, they started to introduce big changes to bring the ecosystem towards the
+latest Python standards and best practices [11]_.
 
-The new release 7.0 started to clean up the code base further to meet PEP8 and
-other Python standards.
+* The main theme of version 6.0 was to remove all legacy bits around asyncore.
+* The main theme of version 6.1 was to support of latest PySMI releases.
+* The main theme of version 6.2 was to remove all sync API.
+* The main theme of version 7.0 was to meet PEP 8 requirements.
+* The main theme of version 7.1 was to adapt async DNS queries and fix the mess
+  around nextCmd/bulkCmd/walkCmd/bulkWalkCmd.
+
+An article with more backgrounds can be found on the LeXtudio blog [12]_.
 
 .. rubric:: Footnotes
 
@@ -96,6 +99,8 @@ other Python standards.
 .. [8] https://github.com/etingof?tab=overview&from=2020-12-01&to=2020-12-31
 .. [9] https://github.com/pyasn1
 .. [10] https://github.com/etingof/pysnmp/issues/429
+.. [11] https://github.com/lextudio/pysnmp/blob/main/SECURITY.md
+.. [12] https://docs.lextudio.com/blog/reviving-pysnmp/
 
 Related Resources
 -----------------
