@@ -51,7 +51,8 @@ Key Features:
 Getting Started:
 ^^^^^^^^^^^^^^^^
 
-- `SNMP Library Quick Start <https://www.pysnmp.com/pysnmp/quick-start>`_
+- `SNMP Library Docs <https://www.pysnmp.com/pysnmp/>`_
+- Source code is hosted in `PySNMP GitHub repository`_.
 
 Well-Known Projects Using PySNMP:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,8 +68,6 @@ Well-Known Projects Using PySNMP:
      - .. image:: _static/home-assistant-logo-vertical.svg
           :width: 128
           :class: white-background
-
-Source code is hosted in `PySNMP GitHub repository`_.
 
 Tools and Utilities
 -------------------
