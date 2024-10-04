@@ -51,8 +51,8 @@ Key Features:
 Getting Started:
 ^^^^^^^^^^^^^^^^
 
-- `SNMP Library Docs <https://www.pysnmp.com/pysnmp/>`_
-- Source code is hosted in `PySNMP GitHub repository`_.
+- Get-started guide and other articles are in `SNMP Library Docs <https://www.pysnmp.com/pysnmp/>`_
+- Source code and examples are hosted in `PySNMP GitHub repository`_.
 
 Well-Known Projects Using PySNMP:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
