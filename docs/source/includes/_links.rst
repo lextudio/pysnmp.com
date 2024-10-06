@@ -9,7 +9,7 @@
 .. _mibs.pysnmp.com: https://mibs.pysnmp.com/
 .. _PySMI: https://www.pysnmp.com/pysmi/
 .. _SNMP Proxy Forwarder: https://www.pysnmp.com/snmpfwd/
-.. _snmpsim: https://www.pysnmp.com/snmpsim/
+.. _SNMP Simulator: https://www.pysnmp.com/snmpsim/
 .. _PyASN1: https://pyasn1.readthedocs.io/
 .. _mibdump: https://www.pysnmp.com/pysmi/docs/mibdump
 .. _command line tools: https://www.pysnmp.com/snmpclitools/
@@ -24,3 +24,4 @@
 .. _Wireshark: https://www.wireshark.org/
 .. _tcpdump: https://www.tcpdump.org/
 .. _Net-SNMP: http://www.net-snmp.org/
+.. _SNMP Guru GPT: https://chat.openai.com/g/g-ZWj5VHbh7-snmp-guru

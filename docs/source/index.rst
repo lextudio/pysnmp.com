@@ -25,8 +25,11 @@ applications.
 .. toctree::
    :maxdepth: 2
 
-- **SNMP Overview**: If you're new to SNMP, check out this `Introduction to SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>`_ for a basic understanding of how the protocol works.
-- **SNMP Guru GPT**: For in-depth SNMP knowledge, interact with `SNMP Guru GPT <https://chat.openai.com/g/g-ZWj5VHbh7-snmp-guru>`_.
+   snmp-history
+   snmp-design
+
+You can interact with `SNMP Guru GPT`_ to ask questions about SNMP and learn
+more in-depth information about the protocol.
 
 Core Library
 ------------
@@ -77,10 +80,10 @@ monitor SNMP-enabled devices. These sibling projects complement the PySNMP core
 library.
 
 - `Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools/>`_: SNMP utilities for the command line.
-- `SNMP Simulator <https://www.pysnmp.com/snmpsim/>`_: Simulate SNMP agents for testing.
+- `SNMP Simulator`_: Simulate SNMP agents for testing.
 - `SNMP Simulator Control Plane <https://www.pysnmp.com/snmpsim-control-plane/>`_: Manage and control SNMP simulation.
 - `SNMP Simulator Data <https://www.pysnmp.com/snmpsim-data/>`_: Dataset for use with SNMP simulators.
-- `SNMP Proxy Forwarder <https://www.pysnmp.com/snmpfwd/>`_: Forward SNMP messages between networks.
+- `SNMP Proxy Forwarder`_: Forward SNMP messages between networks.
 - `SNMP Command Responder <https://www.pysnmp.com/snmpresponder/>`_: Implement SNMP agents.
 - `SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>`_: Compile MIB files into Python.
 - `ASN.1 Types and Codecs <https://pyasn1.readthedocs.io/>`_: Encode and decode ASN.1 data types.

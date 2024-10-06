@@ -1,8 +1,8 @@
 
 .. _history:
 
-Project History
-===============
+PySNMP Project History
+======================
 
 Start of PySNMP
 ---------------
