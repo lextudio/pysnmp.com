@@ -54,7 +54,7 @@ Key Features:
 Getting Started:
 ^^^^^^^^^^^^^^^^
 
-- Get-started guide and other articles are in `SNMP Library Docs <https://www.pysnmp.com/pysnmp/>`_
+- Get-started guide and other articles are in `SNMP Library Docs <https://www.pysnmp.com/pysnmp/>`_.
 - Source code and examples are hosted in `PySNMP GitHub repository`_.
 
 Well-Known Projects Using PySNMP:
@@ -109,3 +109,13 @@ PySNMP is an open-source project, and contributions are welcome. Visit our
 PySNMP is freely available under terms that allow for both personal and
 commercial use. Learn more about the PySNMP license in the :doc:`/license`
 section.
+
+SNMP with C#/.NET?
+------------------
+
+Are you looking for an SNMP library for C#/.NET? Check out this from `LeXtudio Inc.`_.,
+
+.. toctree::
+   :maxdepth: 2
+
+   sharpsnmp
