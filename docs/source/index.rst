@@ -54,23 +54,16 @@ Key Features:
 Getting Started:
 ^^^^^^^^^^^^^^^^
 
-- Get-started guide and other articles are in `SNMP Library Docs <https://www.pysnmp.com/pysnmp/>`_.
-- Source code and examples are hosted in `PySNMP GitHub repository`_.
+To begin using PySNMP, visit `SNMP Library Docs <https://www.pysnmp.com/pysnmp/>`_
+for comprehensive guides and articles that cover everything from installation to
+advanced usage. These resources are designed to help both beginners and
+experienced developers quickly get up to speed with PySNMP's capabilities and
+best practices.
 
-Well-Known Projects Using PySNMP:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. list-table::
-   :widths: 64 64
-
-   * - OpenStack
-     - .. image:: _static/OpenStack-Logo-Vertical.png
-          :width: 128
-          :class: white-background
-   * - Home Assistant
-     - .. image:: _static/home-assistant-logo-vertical.svg
-          :width: 128
-          :class: white-background
+Additionally, `PySNMP GitHub repository`_ hosts the source code and a variety of
+examples to illustrate common use cases and advanced features. By exploring the
+repository, you can gain deeper insights into the library's architecture and
+contribute to its ongoing development.
 
 Tools and Utilities
 -------------------
@@ -88,6 +81,9 @@ library.
 - `SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>`_: Compile MIB files into Python.
 - `ASN.1 Types and Codecs <https://pyasn1.readthedocs.io/>`_: Encode and decode ASN.1 data types.
 
+The Python community has developed a wide range of tools and libraries built on
+top of PySNMP. You can explore many of these in the showcase page linked below.
+
 Additional Resources
 --------------------
 
@@ -98,6 +94,7 @@ Additional Resources
    license
    history
    snmp-simulation-service
+   showcase
    privacy
 
 Contributing
@@ -113,7 +110,8 @@ section.
 SNMP with C#/.NET?
 ------------------
 
-Are you looking for an SNMP library for C#/.NET? Check out this from `LeXtudio Inc.`_.,
+Are you looking for an SNMP library for C#/.NET? Check out C# SNMP product
+family from `LeXtudio Inc.`_,
 
 .. toctree::
    :maxdepth: 2

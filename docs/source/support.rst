@@ -36,6 +36,10 @@ the same issue as you and has received an answer. This makes Stack Overflow not
 just a platform for asking questions, but also a valuable resource for learning
 and problem-solving.
 
+.. note:: Please be aware that some Stack Overflow answers from previous years
+   may not be compatible with the latest PySNMP releases. It is advisable to
+   verify the relevance of the solutions with the version you are using.
+
 GitHub
 ++++++
 
@@ -55,6 +59,12 @@ a developer. By reporting issues and suggesting enhancements, you're helping to
 improve PySNMP for everyone. By contributing to the project, you're not just
 solving your own problems, but also helping others who might face the same
 issues in the future.
+
+.. note:: When reporting issues on GitHub, please ensure that you provide
+   detailed information about the problem you're facing, including steps to
+   reproduce it, the version of PySNMP you're using, and any relevant logs or
+   error messages. This will help others understand the issue better and
+   provide a more accurate solution.
 
 Commercial Support
 ------------------
