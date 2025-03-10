@@ -30,7 +30,7 @@ projects as well as many . Below is a list of some of the projects that use PySN
      - `Genie.libs <https://developer.cisco.com/docs/genie-docs/>`_
    * - Brother
      - A Python wrapper for retrieving data from Brother laser and inkjet printers via SNMP, facilitating printer status monitoring and management.
-     - `Brother <https://www.brother.com/>`_
+     - `Brother <https://github.com/bieniu/brother>`_
    * - Proliantutils
      - Developed by Hewlett Packard Enterprise, Proliantutils is a set of tools for managing HP ProLiant servers. It's used by system administrators for server management tasks.
      - `Proliantutils <https://github.com/HewlettPackard/python-proliantutils>`_
