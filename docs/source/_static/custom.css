@@ -1,4 +1,6 @@
-/* Apply white background only to images with the 'white-background' class */
-img.white-background {
-    background-color: white;
+/* Update background color for SVG images to a light gray for better compatibility with dark themes */
+img[src$=".svg"] {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 5px; /* Optional: Add some padding for better visibility */
+    border-radius: 4px; /* Optional: Add rounded corners */
 }
