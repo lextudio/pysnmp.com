@@ -22,13 +22,20 @@ and monitoring network devices. PySNMP leverages SNMP with the power and
 simplicity of Python, providing a versatile SNMP engine for a wide range of
 applications.
 
+For those seeking a deeper understanding, LeXtudio Inc. offers an extensive course
+on SNMP—the protocol and its ecosystem—that goes beyond the basics and provides
+comprehensive, expert-level training. The course is available either virtually or
+face to face.
+
+For more information or to enroll, contact `LeXtudio Inc. <mailto:support@lextudio.com>`_.
+
 .. toctree::
    :maxdepth: 2
 
    snmp-history
    snmp-design
 
-You can interact with `SNMP Guru GPT`_ to ask questions about SNMP and learn
+You can also interact with `SNMP Guru GPT`_ to ask questions about SNMP and learn
 more in-depth information about the protocol.
 
 Core Library
@@ -36,7 +43,11 @@ Core Library
 
 The PySNMP core library implements a robust SNMP engine entirely in Python. It
 provides full support for SNMPv1, SNMPv2c, and SNMPv3, as well as key features
-like MIB handling and asynchronous operations.
+like MIB handling and asynchronous operations. Explore the core library Python
+package:
+
+- 📦 `PySNMP Core Library <https://www.pysnmp.com/pysnmp/>`_: The main SNMP engine
+  for Python, providing a complete implementation of the SNMP protocol.
 
 Key Features:
 ^^^^^^^^^^^^^
@@ -70,16 +81,16 @@ Tools and Utilities
 
 PySNMP includes a variety of tools and utilities designed to help manage and
 monitor SNMP-enabled devices. These sibling projects complement the PySNMP core
-library.
+library. Explore these Python packages:
 
-- `Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools/>`_: SNMP utilities for the command line.
-- `SNMP Simulator`_: Simulate SNMP agents for testing.
-- `SNMP Simulator Control Plane <https://www.pysnmp.com/snmpsim-control-plane/>`_: Manage and control SNMP simulation.
-- `SNMP Simulator Data <https://www.pysnmp.com/snmpsim-data/>`_: Dataset for use with SNMP simulators.
-- `SNMP Proxy Forwarder`_: Forward SNMP messages between networks.
-- `SNMP Command Responder <https://www.pysnmp.com/snmpresponder/>`_: Implement SNMP agents.
-- `SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>`_: Compile MIB files into Python.
-- `ASN.1 Types and Codecs <https://pyasn1.readthedocs.io/>`_: Encode and decode ASN.1 data types.
+- 📦 `Command-line SNMP Tools <https://www.pysnmp.com/snmpclitools/>`_: SNMP utilities for the command line.
+- 📦 `SNMP Simulator`_: Simulate SNMP agents for testing.
+- 📦 `SNMP Simulator Control Plane <https://www.pysnmp.com/snmpsim-control-plane/>`_: Manage and control SNMP simulation.
+- 📦 `SNMP Simulator Data <https://www.pysnmp.com/snmpsim-data/>`_: Dataset for use with SNMP simulators.
+- 📦 `SNMP Proxy Forwarder`_: Forward SNMP messages between networks.
+- 📦 `SNMP Command Responder <https://www.pysnmp.com/snmpresponder/>`_: Implement SNMP agents.
+- 📦 `SNMP SMI Compiler <https://www.pysnmp.com/pysmi/>`_: Compile MIB files into Python.
+- 📦 `ASN.1 Types and Codecs <https://pyasn1.readthedocs.io/>`_: Encode and decode ASN.1 data types.
 
 The Python community has developed a wide range of tools and libraries built on
 top of PySNMP. You can explore many of these in the showcase page linked below.
