@@ -27,3 +27,13 @@
 .. _tcpdump: https://www.tcpdump.org/
 .. _Net-SNMP: http://www.net-snmp.org/
 .. _SNMP Guru GPT: https://chat.openai.com/g/g-ZWj5VHbh7-snmp-guru
+.. _PySNMP Core Library: https://www.pysnmp.com/pysnmp/
+.. _SNMP Library Docs: https://www.pysnmp.com/pysnmp/
+.. _SNMP Simulator Control Plane: https://www.pysnmp.com/snmpsim-control-plane/
+.. _SNMP Simulator Data: https://www.pysnmp.com/snmpsim-data/
+.. _SNMP Command Responder: https://www.pysnmp.com/snmpresponder/
+.. _#SNMP Library Docs: https://docs.sharpsnmp.com/
+.. _#SNMP Tools and Test Agent: https://github.com/lextudio/sharpsnmplib-samples
+.. _#SNMP Pro: https://pro.sharpsnmp.com/
+.. _Google Privacy Policy: https://policies.google.com/privacy
+.. _Google Analytics Opt-out: https://tools.google.com/dlpage/gaoptout

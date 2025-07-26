@@ -22,7 +22,7 @@ Key Features:
 Getting Started:
 ^^^^^^^^^^^^^^^^
 
-- Get-started guide and other articles are in `#SNMP Library Docs <https://docs.sharpsnmp.com/>`_.
+- Get-started guide and other articles are in `#SNMP Library Docs`_.
 - Source code and examples are hosted in `#SNMP GitHub repository`_.
 
 Tools and Utilities
@@ -32,8 +32,8 @@ Tools and Utilities
 monitor SNMP-enabled devices. These sibling projects complement the #SNMP
 Library.
 
-- `Command-line SNMP Tools and Test Agent <https://github.com/lextudio/sharpsnmplib-samples>`_: SNMP utilities for the command line and test agent sample.
-- `#SNMP Pro <https://pro.sharpsnmp.com/>`_: Compile MIB files into C# and other MIB related tools.
+- `#SNMP Tools and Test Agent`_: SNMP utilities for the command line and test agent sample.
+- `#SNMP Pro`_: Compile MIB files into C# and other MIB related tools.
 
 Additional Resources
 --------------------
