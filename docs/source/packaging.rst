@@ -23,9 +23,14 @@ No OS-specific Packaging by Project Maintainers
 ------------------------------------------------
 
 We do not plan to provide or maintain packages for any specific operating
-systems or distributions (e.g., RPM for Fedora, DEB for Debian/Ubuntu). Our
-focus remains on the Python ecosystem and the PyPI packages, which are used by
-the majority of our business users.
+systems or distributions (e.g., RPM for Fedora, DEB for Debian/Ubuntu). While
+distribution packagers may be sponsored by their respective
+distributions, we as PySNMP maintainers are not sponsored by those
+distributions.
+
+Our focus remains on the Python ecosystem and the PyPI packages,
+which are used by the majority of our business users and provide the most
+direct path to our users.
 
 Community Packaging Is Welcome
 -------------------------------
@@ -45,5 +50,6 @@ We will:
 - Ensure speedy publication of new versions to PyPI once the changes are
   merged.
 
-If technical support or guidance is required, please contact us at
-`LeXtudio Inc.`_ to discuss business engagement details.
+If you have any questions about this policy, or require technical support or
+guidance, please contact us at `LeXtudio Inc.`_ to discuss business engagement 
+details.
