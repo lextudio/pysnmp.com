@@ -56,7 +56,7 @@ master_doc = "index"
 
 # General information about the project.
 project = "PySNMP 7 Homepage"
-copyright = "2017-2020, Ilya Etingof. © Copyright 2022-2024, LeXtudio Inc."
+copyright = "2017-2020, Ilya Etingof. © Copyright 2022-2026, LeXtudio Inc."
 author = "Ilya Etingof <etingof@gmail.com>; LeXtudio Inc. <support@lextudio.com>"
 
 # The version info for the project you're documenting, acts as replacement for
