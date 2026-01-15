@@ -97,8 +97,23 @@ have a team of experts at your disposal who are committed to helping you
 resolve your issues. They understand your needs and preferences and provide
 personalized support to ensure your satisfaction.
 
-You can purchase commercial support contracts by contacting `LeXtudio Inc.`_,
-or via the links below:
+The Tiers
++++++++++
+
+Commercial support is offered in multiple tiers so you can match the level of
+coverage, response expectations, and engagement model to your operational needs.
+If you need a different level of support than what’s shown on this page (for
+example, broader coverage hours, tighter response targets, or long-term support
+for older versions), please contact the LeXtudio Inc. sales team for options and
+pricing.
+
+The plan listed below, **PySNMP Basic Subscription** (USD 2,200/year), is our
+essential starting tier and a good fit for teams that want reliable, priority
+help beyond community channels.
+
+You can purchase the **PySNMP Basic Subscription** directly via the link below.
+For additional tiers or a tailored support plan, contact `LeXtudio Inc.`_ and
+our sales team will share the available options and details.
 
 .. raw:: html
 
